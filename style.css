@@ -1,5 +1,9 @@
+body{
+  scroll-behavior: smooth;
+}
 *{
   list-style: none;
+  scroll-behavior: smooth;
 }
 .card{
   cursor: pointer;
@@ -15,9 +19,12 @@
 .mr-10{
   margin-right: 30px;
 }
+nav{
+  padding: 0;
+}
 .navbar-logo {
-  max-width: 150px;
-  height: 40px;
+  max-width: 140px;
+  height: 38px;
 }
 .nav-link:hover,
 .botto:hover {
@@ -126,6 +133,14 @@ footer h5{
 
 
 @media (min-width: 290px) and (max-width: 360px){ 
+  .height1{
+    max-height: 300px;
+    height: 300px;
+  }
+
+  
+
+
   /* .carousel-item{
     position: relative;
     }
@@ -136,13 +151,8 @@ footer h5{
     padding-left: 0 !important;
    
     }
-    .caption-two{
-    position: absolute;
-    top: 0px;
-    left: -30px;
-    padding-left: 0 !important;
-    
-    } */
+
+     
     /* *{
       margin: 0;
       padding: 0;
